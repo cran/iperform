@@ -36,6 +36,15 @@ dday(data = voix_mobile,
 
 
 ## -----------------------------------------------------------------------------
+dday(data = voix_mobile,
+      date = "2023-12-11",
+      d = 0,
+      x = "Revenu",
+      unite = 1,
+      decimal = 0)
+
+
+## -----------------------------------------------------------------------------
 mtd(data = voix_mobile,
     date = "2023-08-11",
     m = 0,
@@ -100,22 +109,44 @@ for (d in vec_date) {
   }
 
 
+## -----------------------------------------------------------------------------
+taux_v(data = voix_mobile, 
+       date = "2023-08-11", 
+       x = "Revenu", 
+       p = -1)
+
+
+## -----------------------------------------------------------------------------
+taux_v(data = voix_mobile, 
+       date = "2023-08-11", 
+       x = "Revenu")
+
+
+## -----------------------------------------------------------------------------
+taux_v(data = voix_mobile, 
+       date = "2023-08-11", 
+       x = "Revenu", 
+       variation = "mtd")
+
+
 ## ----overview, eval = FALSE---------------------------------------------------
 #  overview(data = voix_mobile,
 #           date = "2023-08-11",
 #           x = "Revenu",
 #           unite = 1,
 #           decimal = 2,
-#           cumul = FALSE)
+#           cumul = FALSE,
+#           freq = "full")
 #  
 
 ## ----echo=FALSE---------------------------------------------------------------
-resultat = overview(data = voix_mobile,
+resultat <- overview(data = voix_mobile,
                     date = "2023-08-11",
                     x = "Revenu",
                     unite = 1,
                     decimal = 2,
-                    cumul = FALSE)
+                    cumul = FALSE,
+                    freq = "full")
 
 resultat
 
