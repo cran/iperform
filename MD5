@@ -1,6 +1,6 @@
-3cc503dd658d3433fc9a29abe035a16d *DESCRIPTION
+7770497503bea7f0de5e8dc8e1e13a3d *DESCRIPTION
 56f45e1258980d93991cfbbf54213ed5 *NAMESPACE
-fc6e29b830cd65afbc02999f09ad26d3 *NEWS.md
+bb8f2827cad3c87e31fb63b60f52d15b *NEWS.md
 a152ee35c157c74ec14b6b4a5b31a1eb *R/data_doc-operateur_mobile.R
 ff4964f254c5c2a945fbc9e986401ccd *R/data_doc-service_mobile.R
 2885ab661bcc0f58968ab3bf9fd4cc72 *R/data_doc-voix_mobile.R
@@ -28,6 +28,8 @@ caa326853b123845901dc7f965aba2ce *data/voix_mobile.rda
 303253d92ab00cfbeabd653aaa5903dd *inst/doc/iperform.R
 eeecff64e931ffd8f85e09cdbb566c0b *inst/doc/iperform.Rmd
 5d382192882f1ac0e61aa84509b4176a *inst/doc/iperform.html
+d28c06e51d3d20ca53a225b1106b4b98 *inst/figures/baseplot.png
+dbf63d18a725fd13ef80d67ec489e004 *inst/figures/imgfile.png
 8581a9dc85a80b0e0610c93fa90a54fd *man/dday.Rd
 32cb276b6dcaf4f2afe9e06868a42cfa *man/figures/README-pressure-1.png
 e51a2272fe6e7c1480ddafe0bf8bed29 *man/figures/logo.png

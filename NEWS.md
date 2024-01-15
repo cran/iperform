@@ -1,3 +1,8 @@
+# iperform 0.0.3
+
+* Fixation de la version minimale de dependance de R (>= 4.3.0)
+
+
 # iperform 0.0.2
 
 ## Nouvelles fonctions

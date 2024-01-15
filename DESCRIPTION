@@ -1,6 +1,6 @@
 Package: iperform
 Title: Time Series Performance
-Version: 0.0.2
+Version: 0.0.3
 Authors@R: c(
     person("Patrick", "Ilunga", , "patrick.ilunga@unikin.ac.cd", role = c("aut", "cre")),
     person(, "Ilunga Buabua Patrick", role = "cph")
@@ -15,11 +15,11 @@ Imports: lubridate, matrixStats
 Language: en, fr
 VignetteBuilder: knitr
 LazyData: true
-Depends: R (>= 2.10)
+Depends: R (>= 4.3.0)
 NeedsCompilation: no
-Packaged: 2024-01-04 11:12:10 UTC; patrickilunga
+Packaged: 2024-01-15 11:24:25 UTC; patrickilunga
 Author: Patrick Ilunga [aut, cre],
   Ilunga Buabua Patrick [cph]
 Maintainer: Patrick Ilunga <patrick.ilunga@unikin.ac.cd>
 Repository: CRAN
-Date/Publication: 2024-01-08 15:50:02 UTC
+Date/Publication: 2024-01-15 13:10:02 UTC
